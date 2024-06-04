@@ -7,7 +7,7 @@ print(find_library("gs")) # Make sure you have ghostscript installed (thru homeb
 pdf_path = "pdfs/NSDUH-2022-DS0001-info-codebook (1).pdf"
 
 # Extract tables using stream mode (for tables without borders)
-tables = camelot.read_pdf(pdf_path, pages='42-52', flavor='stream', edge_tol=1000)
+tables = camelot.read_pdf(pdf_path, pages='42-62', flavor='stream', edge_tol=1000)
 
 # # Print the tables or save them to CSV files
 for i, table in enumerate(tables):

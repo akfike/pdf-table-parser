@@ -29,7 +29,7 @@ def parse_camelot_table_v6(camelot_table):
     # Iterate through the rows of the camelot table
     for index, row in camelot_table.iterrows():
         if pd.notna(row[0]) and not row[0].startswith('(') and not row[0].startswith('\\n'):
-            current_question_code = row[0]
+            current_question_code = re.sub(r'\s+', '', row[0])  # Remove spaces and newlines
             current_short_description = extract_short_description(row[1] if pd.notna(row[1]) else '')
         elif pd.notna(row[0]) and row[0].startswith('('):
             current_related_variables = row[0]
