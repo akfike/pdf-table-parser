@@ -13,8 +13,8 @@ tables = camelot.read_pdf(pdf_path, pages='48,528,529', flavor='stream', edge_to
 for i, table in enumerate(tables):
 	print(f"Table {i}")
 	print(table.parsing_report)
-	camelot.plot(table, kind='contour') # text, grid, contour, line, joint, 
+	camelot.plot(table, kind='contour') # text, grid, contour, line, joint, ...
 	plt.show()
 	print(table.df)
 	table.to_csv(f"camelot_table_{i}.csv")
-	input("Type N for next")
+	input("Hit Enter for next table")
