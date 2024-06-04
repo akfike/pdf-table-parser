@@ -42,6 +42,12 @@ def parse_camelot_table_v6(camelot_table):
             related_variables.append(current_related_variables)
             answer_codes.append(code)
             answer_meanings.append(meaning)
+        elif current_question_code:
+            question_codes.append(current_question_code)
+            short_descriptions.append(current_short_description)
+            related_variables.append(current_related_variables)
+            answer_codes.append('')
+            answer_meanings.append('')
 
     # Create a DataFrame with the extracted data
     parsed_data = pd.DataFrame({
@@ -63,6 +69,7 @@ parsed_data_frames = [parse_camelot_table_v6(pd.read_csv(file_path)) for file_pa
 # Combine all parsed data into a single DataFrame
 consolidated_data_v6 = pd.concat(parsed_data_frames, ignore_index=True)
 
+# Save the consolidated DataFrame to a CSV file
 consolidated_data_v6.to_csv('consolidated_nsduh_data.csv', index=False)
 
 # Display the consolidated DataFrame
