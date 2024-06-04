@@ -1,0 +1,16 @@
+"T","he variable PDEN10 is based on 2010 Census data and the December 2009 Core Based Statistical Area classifications provided by the Office of","",""
+"Management and Budget (OMB).","","",""
+"P
+DEN10","Len : 1    POPULATION DENSITY 2010 - THREE LEVELS","",""
+"","","Freq","Pct"
+"","1 = Segment in a CBSA with 1 million or more persons .....................................................","25723","43.55"
+"","2 = Segm. in a CBSA with fewer than 1 million persons ....................................................","30609","51.82"
+"","3 = Segment not in a CBSA ................................................................................................","2737","4.63"
+"N
+OTE: COUTYP4 is recoded based on the 2013 Rural/Urban Continuum Codes.","","",""
+"C
+OUTYP4","Len : 1    COUNTY METRO/NONMETRO STATUS (2013 3-LEVEL)","",""
+"","","Freq","Pct"
+"","1 = Large Metro ..................................................................................................................","27015","45.73"
+"","2 = Small Metro ..................................................................................................................","23581","39.92"
+"","3 = Nonmetro ......................................................................................................................","8473","14.34"

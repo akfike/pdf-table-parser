@@ -1,0 +1,12 @@
+"","IDENTIFICATION"
+"IDENTIFICATION",""
+"T","he following variable, QUESTID2, is a unique record identifier within a particular study year. The IDs may be repeated in other study years, so"
+"analysts should always consider the study year when using the QUESTID2.",""
+"Q
+UESTID2","Len : 7    RESPONDENT IDENTIFICATION"
+"T
+he following variable, FILEDATE, represents the date the SAS data file was created.",""
+"F
+   
+ILEDATE","Len : 10    CREATION DATE OF THE DATA FILE"
+"Codebook Creation Date: 10/19/2023 ..................................................... 3",""
