@@ -1,7 +1,7 @@
 import camelot
-import matplotlib.pyplot as plt # this to add
+import matplotlib.pyplot as plt
 from ctypes.util import find_library
-print(find_library("gs"))
+print(find_library("gs")) # Make sure you have ghostscript installed (thru homebrew or other)
 
 # Specify the path to your PDF file
 pdf_path = "pdfs/NSDUH-2022-DS0001-info-codebook (1).pdf"
