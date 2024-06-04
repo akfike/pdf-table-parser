@@ -7,7 +7,7 @@ print(find_library("gs"))
 pdf_path = "pdfs/NSDUH-2022-DS0001-info-codebook (1).pdf"
 
 # Extract tables using stream mode (for tables without borders)
-tables = camelot.read_pdf(pdf_path, pages='529,528,48', flavor='stream', edge_tol=1000)
+tables = camelot.read_pdf(pdf_path, pages='48,528,529', flavor='stream', edge_tol=1000)
 
 # # Print the tables or save them to CSV files
 for i, table in enumerate(tables):
