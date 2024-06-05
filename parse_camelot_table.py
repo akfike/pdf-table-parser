@@ -1,6 +1,7 @@
 import pandas as pd
 import re
 import glob
+import csv  # Importing csv for quoting
 
 # Function to remove superscript/subscript text
 def remove_super_sub_scripts(text):
@@ -43,18 +44,13 @@ def parse_camelot_table_v6(camelot_table):
         elif pd.notna(row.iloc[1]) and '=' in str(row.iloc[1]):
             code_meaning_split = str(row.iloc[1]).split('=')
             code = remove_super_sub_scripts(code_meaning_split[0].strip())
-            meaning = remove_super_sub_scripts(code_meaning_split[1].split('.....')[0].strip())
-            question_codes.append(current_question_code)
-            short_descriptions.append(current_short_description)
-            related_variables.append(current_related_variables)
-            answer_codes.append(code)
-            answer_meanings.append(meaning)
-        elif current_question_code:
-            question_codes.append(current_question_code)
-            short_descriptions.append(current_short_description)
-            related_variables.append(current_related_variables)
-            answer_codes.append('')
-            answer_meanings.append('')
+            if code:  # Skip if answer_code is empty
+                meaning = remove_super_sub_scripts(code_meaning_split[1].split('.....')[0].strip())
+                question_codes.append(current_question_code)
+                short_descriptions.append(current_short_description)
+                related_variables.append(current_related_variables)
+                answer_codes.append(code)
+                answer_meanings.append(meaning)
 
     # Create a DataFrame with the extracted data
     parsed_data = pd.DataFrame({
@@ -71,13 +67,13 @@ def parse_camelot_table_v6(camelot_table):
 file_paths = glob.glob('csvs/nsduh_table_*.csv')
 
 # Parse all camelot tables
-parsed_data_frames = [parse_camelot_table_v6(pd.read_csv(file_path)) for file_path in file_paths]
+parsed_data_frames = [parse_camelot_table_v6(pd.read_csv(file_path, dtype=str)) for file_path in file_paths]
 
 # Combine all parsed data into a single DataFrame
 consolidated_data_v6 = pd.concat(parsed_data_frames, ignore_index=True)
 
 # Save the consolidated DataFrame to a CSV file
-consolidated_data_v6.to_csv('consolidated_nsduh_data.csv', index=False)
+consolidated_data_v6.to_csv('consolidated_nsduh_data.csv', index=False, quoting=csv.QUOTE_NONNUMERIC)
 
 # Display the consolidated DataFrame
 print(consolidated_data_v6)
