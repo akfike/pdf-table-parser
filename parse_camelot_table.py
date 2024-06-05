@@ -35,13 +35,13 @@ def parse_camelot_table_v6(camelot_table):
 
     # Iterate through the rows of the camelot table
     for index, row in camelot_table.iterrows():
-        if pd.notna(row.iloc[0]) and not row.iloc[0].startswith('(') and not row.iloc[0].startswith('\\n'):
+        if len(row) > 1 and pd.notna(row.iloc[0]) and not row.iloc[0].startswith('(') and not row.iloc[0].startswith('\\n'):
             current_question_code = re.sub(r'\s+', '', row.iloc[0])  # Remove spaces and newlines
             current_question_code = remove_super_sub_scripts(current_question_code)  # Remove superscripts/subscripts
             current_short_description = extract_short_description(row.iloc[1] if pd.notna(row.iloc[1]) else '')
-        elif pd.notna(row.iloc[0]) and row.iloc[0].startswith('('):
+        elif len(row) > 1 and pd.notna(row.iloc[0]) and row.iloc[0].startswith('('):
             current_related_variables = remove_super_sub_scripts(row.iloc[0])
-        elif pd.notna(row.iloc[1]) and '=' in str(row.iloc[1]):
+        elif len(row) > 1 and pd.notna(row.iloc[1]) and '=' in str(row.iloc[1]):
             code_meaning_split = str(row.iloc[1]).split('=')
             code = remove_super_sub_scripts(code_meaning_split[0].strip())
             if code:  # Skip if answer_code is empty
