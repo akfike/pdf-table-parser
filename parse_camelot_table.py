@@ -4,15 +4,16 @@ import glob
 
 # Function to remove superscript/subscript text
 def remove_super_sub_scripts(text):
-    """Remove text in the form of <s>#</s> where # is any number."""
-    return re.sub(r'<s>\d+</s>', '', text)
+    """Remove text in the form of <s>#</s> where # is any string."""
+    return re.sub(r'<s>.*?</s>', '', text)
 
 # Function to extract the short description
 def extract_short_description(description):
     """Extract the short description after the pattern 'Len : #'."""
-    match = re.search(r'Len : \d+(.+)', description)
-    if match:
-        return remove_super_sub_scripts(match.group(1).strip())
+    if isinstance(description, str):
+        match = re.search(r'Len : \d+(.+)', description)
+        if match:
+            return remove_super_sub_scripts(match.group(1).strip())
     return ''
 
 # Function to parse camelot table CSV files
@@ -33,14 +34,14 @@ def parse_camelot_table_v6(camelot_table):
 
     # Iterate through the rows of the camelot table
     for index, row in camelot_table.iterrows():
-        if pd.notna(row[0]) and not row[0].startswith('(') and not row[0].startswith('\\n'):
-            current_question_code = re.sub(r'\s+', '', row[0])  # Remove spaces and newlines
+        if pd.notna(row.iloc[0]) and not row.iloc[0].startswith('(') and not row.iloc[0].startswith('\\n'):
+            current_question_code = re.sub(r'\s+', '', row.iloc[0])  # Remove spaces and newlines
             current_question_code = remove_super_sub_scripts(current_question_code)  # Remove superscripts/subscripts
-            current_short_description = extract_short_description(row[1] if pd.notna(row[1]) else '')
-        elif pd.notna(row[0]) and row[0].startswith('('):
-            current_related_variables = remove_super_sub_scripts(row[0])
-        elif pd.notna(row[1]) and '=' in row[1]:
-            code_meaning_split = row[1].split('=')
+            current_short_description = extract_short_description(row.iloc[1] if pd.notna(row.iloc[1]) else '')
+        elif pd.notna(row.iloc[0]) and row.iloc[0].startswith('('):
+            current_related_variables = remove_super_sub_scripts(row.iloc[0])
+        elif pd.notna(row.iloc[1]) and '=' in str(row.iloc[1]):
+            code_meaning_split = str(row.iloc[1]).split('=')
             code = remove_super_sub_scripts(code_meaning_split[0].strip())
             meaning = remove_super_sub_scripts(code_meaning_split[1].split('.....')[0].strip())
             question_codes.append(current_question_code)
