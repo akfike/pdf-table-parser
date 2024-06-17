@@ -1,0 +1,147 @@
+variable_name,description
+YESTSALC,How many of the students in your grade at school would you say drink alcoholic beverages?
+YOPBNUM,"In your entire life, how many times did you feel [FEELNOUN] for two weeks or longer while also having some of the other problems we asked about? If you are not sure of your answer, just make your best guess."
+YESTSCIG,"How many of the students in your grade at school would you say smoke cigarettes? Please think about the school you would be attending if you were not home-schooled, as you answer these next questions. How many of the students in your grade at school would you say smoke cigarettes?"
+YOPBRMBR,Think of the very first period of time in your life lasting two weeks or longer when you [FEELFILL] and also had some of the other problems we just asked about. Can you remember your exact age?
+YESTSDNK,How many of the students in your grade at school would you say get drunk at least once a week?
+YOPSDAYS,"NOTE: Beginning with the 2008 survey, respondents who answered ""don't know"" or ""refused"" to questions corresponding to the variables YOPSHMGT, YOPSWORK, YOPSRELS, and YOPSSOC are no longer asked the question corresponding to YOPSDAYS unless they entered a response of 1 to 10 in at least one of the other questions corresponding to YOPSHMGT through YOPSSOC. About how many days out of 365 in the past 12 months were you totally unable to go to school or work or carry out your normal activities because of your [FEELNOUN]? You can use any number between 0 and 365 to answer."
+YESTSMJ,How many of the students in your grade at school would you say use marijuana or any cannabis product?
+YOPSHMGT,"NOTE: Beginning with the 2008 survey, the questions corresponding to the variables YOPSHMGT, YOPSWORK, YOPSRELS, and YOPSSOC no longer allow respondents to choose the category 95 (ACTIVITY DOES NOT APPLY). Think about the time in the past 12 months when [NUMPROBS] with your mood [WASWERE] the worst. Using the 0 to 10 scale shown below, where 0 means no problems and 10 means very severe problems, select the number that describes how much your [FEELNOUN] caused problems with your ability to do each of the following activities during that time. You can use any number between 0 and 10 to answer. How much did your [FEELNOUN] cause problems with your chores at home?"
+YETCGJOB,"During the past 12 months, how often did your teachers at school let you know when you were doing a good job with you school work?"
+YOPSRELS,How much did your [FEELNOUN] cause problems with your ability to get along with your family during that time? You can use any number between 0 and 10 to answer.
+YETLKBGF,
+YOPSSOC,How much did your [FEELNOUN] cause problems with your social life during that time? You can use any number between 0 and 10 to answer.
+YETLKNON,"NOTE: In the variables YETLKPAR, YETLKBGF, YETLKOTA and YETLKSOP, codes of 11 were assigned if the respondent indicated that there was no one that he/she could talk to about a serious problem but the respondent also indicated 1 or more people that he/she could talk to about a serious problem. If you wanted to talk to someone about a serious problem, which of the following people would you turn to?"
+YOPSWORK,"During that time in the past 12 months when your [FEELNOUN] was worst, how much did this cause problems with your ability to do well at school or work? You can use any number between 0 and 10 to answer."
+YETLKOTA,
+YOPSYCH,
+YETLKPAR,
+YOPSYMD,
+YETLKSOP,
+YORELIG,
+YEVIOPRV,"During the past 12 months have you participated in a violence prevention program, where you learn ways to avoid fights and control anger?"
+YORX12MO,"During the past 12 months, did you take prescription medication that was prescribed for [NUMPROBS]?"
+YEYARGUP,"During the past 12 months, how many times have you argued or had a fight with at least one of your parents?"
+YORXHLP,"During the past 12 months, how much has this prescription medication helped you?"
+YEYATTAK,"During the past 12 months, how many times have you attacked someone with the intent to seriously hurt them?"
+YORXNOW,Are you currently taking prescription medication that was prescribed for [NUMPROBS]?
+YEYFGTGP,"During the past 12 months, how many times have you taken part in a fight where a group of your friends fought against another group?"
+YOSEEDOC,"Here is a list of professionals some people talk to about the problems we have been asking about: - General practitioner or family doctor - Other medical doctor like a cardiologist, gynecologist, urologist - Psychologist - Psychiatrist or psychotherapist - Social Worker - Counselor - Other mental health professional, like a mental health nurse - A nurse, occupational therapist, or other health professional - A religious or spiritual advisor like a minister, priest, or rabbi - Another healer, like an herbalist, chiropractor, acupuncturist, or massage therapist At any time in the past 12 months, did you see or talk to a medical doctor or other professional about your [FEELNOUN]?"
+YEYFGTSW,"During the past 12 months, how many times have you gotten into a serious fight at school or work?"
+YOSELL2,
+YEYHGUN,"During the past 12 months, how many times have you carried a handgun?"
+YOSOCWRK,
+YEYSELL,"During the past 12 months, how many times have you sold illegal drugs?"
+YOSTOLE2,
+YEYSTOLE,"During the past 12 months, how many times have you stolen or tried to steal anything worth more than $50?"
+YOTMTHLP,"During the past 12 months, how much has treatment or counseling helped you?"
+YFLADLY2,
+YOTMTNOW,Are you currently receiving treatment or counseling for [NUMPROBS] with your mood?
+YFLMJMO,
+YOWRAGE,How old were you when that worst period of time started? Then think of the most recent time you [FEELFILL] for two weeks or longer and you had these other problems at the same time. How old were you when that time started?
+YFLPKCG2,
+YOWRCHR,"Again, think of times lasting two weeks or longer when [NUMPROBS] with your mood [WASWERE] most severe and frequent. How often, during those times, did you feel so bad that nothing could cheer you up?"
+YFLTMRJ2,
+YOWRCONC,"On most days, did you have a lot more trouble than usual keeping your mind on things?"
+YHBCHMDE,
+YOWRDCSN,Were you unable to make up your mind about things you ordinarily have no trouble deciding about?
+YHLTMDE,"The following variable, YHLTMDE, indicates whether a youth reported seeing or talking to a health professional about MDE in the past year. Youths were classified as having seen or talked to a health professional, YHLTMDE=1, if they reported seeing or talking to any of the following professionals: general practitioner or family doctor (YDOCMDE=1); other medical doctor (YOMDMDE=1); psychologist (YPSY1MDE=1); psychiatrist or psychotherapist (YPSY2MDE=1); social worker (YSOCMDE=1); counselor (YCOUNMDE=1); other mental health professional (YOMHMDE=1); or nurse, occupational therapist, or other health professional (YNURSMDE=1). Respondents were classified as having not seen or talked to a health professional, YHLTMDE=0, if they reported not seeing or talking to all of the professionals listed above (source variable=0). (YCOUNMDE, YDOCMDE, YNURSMDE, YOMDMDE, YOMHMDE, YPSY1MDE, YPSY2MDE, YSOCMDE)"
+YOWRDEPR,"In answering the next questions, think about the period of time/most recent period of time when your [FEELNOUN] and other problems were the worst. During that time, did you feel sad, empty, or depressed for most of the day nearly every day?"
+YMDEAUD5YR,NOTE: The following three recoded variables define if a respondent had co-occurring major depressive episode and a use disorder. Specific information about the DSM-5 use disorder criteria used in these recoded variables can be found in the Nicotine Dependence and Substance Use Disorder Appendix.
+YOWRDIET,Did you lose weight without trying to because you were sick or on a diet?
+YMDEHARX,
+YOWRDISC,"During that [TIMEFILL] period of time, did you feel discouraged about how things were going in your life most of the day nearly every day?"
+YMDEHPO,
+YOWRDST,"Still thinking of times lasting two weeks or longer when [NUMPROBS] with your mood [WASWERE] most severe and frequent, how strong were your bad feelings during those times?"
+YMDEHPRX,
+YOWRELES,"The next questions are about changes in appetite and weight. In answering these questions, think about the period of time/most recent period of time when your [FEELNOUN] and other problems were the worst. Did you eat much less than usual almost every day during that time?"
+YMDEIMAD5YR,NOTE: The following three recoded variables define if a respondent had co-occurring major depressive episode with severe impairment and a use disorder. Specific information about the DSM-5 use disorder criteria used in these recoded variables can be found in the Nicotine Dependence and Substance Use Disorder Appendix.
+YOWREMOR,Did you eat much more than usual almost every day?
+YMDELT,"NOTE: The variables in this section are recoded variables that were created from one or more of the edited or recoded variables from the preceding sections. NOTE: Certain source variables that were used to create recoded variables have valid values that might not have been reported or assigned for the current survey year. However, these values have been included in the general specifications in the codebook on how the recoded variables were created. See additional details about this issue in the Organization of the Data File section of this codebook introduction. NOTE: Respondents were administered separate age-appropriate depression modules designed to measure whether or not respondents had experienced a major depressive episode (MDE) in their lifetime and past year. All adolescent (youth) respondents aged 12 to 17 were asked questions from the Adolescent Depression section. All adults aged 18 or older were administered the questions in the Adult Depression section. Additional details on these adolescent depression recoded variables are provided in the Recoded Adolescent Depression Variable Documentation Appendix. The following variable, YMDELT, classifies an adolescent as having a major depressive episode (MDE) in their lifetime, YMDELT=1, if they reported experiencing at least 5 out of the 9 criteria used to define an adolescent as having had MDE in their lifetime, where at least one of the criteria is a depressed mood or loss of interest or pleasure in daily activities (YODSMMDE=1). An adolescent was classified as NOT having a major depressive episode (MDE) in their lifetime, YMDELT=2, if they met either of these conditions. • Reported experiencing fewer than five out of the nine criteria used to define an adolescent as having had MDE in their lifetime • If the number of criteria used to define an adolescent as having had MDE in their lifetime is unknown (YODSMMDE=94, 97, 98) and the respondent reported at least one of the following: o Never having had a period of time lasting several days or longer when felt sad, empty, or depressed (YODPREV=2), discouraged or hopeless about how things were going in life (YODSCEV=2), and lost interest and became bored with most things usually enjoyable (YOLOSEV=2). o Experienced the feelings in (i), but they did not last most of the day, almost every day for two weeks or longer [YOLSI2WK=2 or YODPR2WK=2]. o Experienced the feelings in (i) most of the day, almost every day for two weeks or longer, but the feelings lasted less than an hour when mood was most severe and frequent (YOWRHRS=1). o Experienced the feelings in (i) most of the day, almost every day for two weeks or longer for at least an hour during those times when mood was most severe and frequent, but the bad feelings were mild (YOWRDST=1), there was never a time when you felt so bad that nothing could cheer you up (YOWRCHR=4), and there was never a time when you felt so bad that you could not carry out your daily activities (YOWRIMP=4). o Experienced the feelings in (i) most of the day, almost every day for two weeks or longer for at least an hour with bad feelings that were more than mild or at some point could not be cheered up or could not carry out daily activities, but never had any other problems during those weeks, such as changes in sleep, eating, energy, the ability to keep mind on things, or feeling badly about self (YODPPROB=2). (YODPPROB, YODPR2WK, YODPREV, YODSCEV, YODSMMDE, YOLOSEV, YOLSI2WK, YOWRCHR, YOWRDST, YOWRHRS, YOWRIMP)"
+YOWRENRG,"On most days during that [TIMEFILL] period of time, did you feel that you didn't have much energy?"
+YMDERSUD5ANY,"NOTE: The following two recoded variables define if a respondent had major depressive episode and/or a substance use disorder. YMDERSUD5ANY and YMDESUD5ANYO are based on DSM-5 SUD estimates including prescription drug use data from all past year users of prescription drugs. These recodes replace variables YMDEORSUD5 and YMDESUD5ONL, and were used starting with the 2021 First Findings Report appendix tables."
+YOWRGAIN,Did you gain weight without trying to during that [TIMEFILL] period of time?
+YMDERXO2,
+YOWRGNL2,How many pounds did you gain? Please enter your answer as a whole number.
+YMDESUD5ANYO,
+YOWRGROW,Did you gain weight without trying to because you were growing?
+YMDETXRX,"In the following variable, YMDETXRX, an adolescent is defined as having received treatment/counseling if he/she saw or talked to a medical doctor or other professional for MDE."
+YOWRHRS,"Think of times lasting two weeks or longer when [NUMPROBS] with your mood [WASWERE] most severe and frequent. During those times, how long did your [FEELNOUN] usually last?"
+YMDEYR,
+YOWRIMP,"Once again, please think of times lasting two weeks or longer when [NUMPROBS] with your mood [WASWERE] most severe and frequent. How often, during those times, did you feel so bad that you could not carry out your daily activities?"
+YMIMI5YANY,
+YOWRJINO,Did anyone else notice that you couldn't sit still?
+YMIMS5YANY,
+YOWRJITT,Were you so restless or jittery that you walked up or down or couldn't sit still?
+YMIUD5YANY,
+YOWRLOSE,Did you lose weight without trying to?
+YMSUD5YANY,
+YOWRLSIN,"During that [TIMEFILL] period of time, did you become bored with almost everything like school, work, hobbies, and things you like to do for fun?"
+YNURSMDE,
+YOWRLSL2,How many pounds did you lose? Please enter your answer as a whole number.
+YO_MDEA1,
+YOWRNOGD,Did you feel that you were not as good as other people nearly every day?
+YO_MDEA2,
+YOWRPLSR,"During that [TIMEFILL] period of time, did you feel like nothing was fun even when good things were happening?"
+YO_MDEA3,
+YOWRPREG,Did you gain weight without trying to because you were pregnant?
+YO_MDEA4,
+YOWRPROB,Think again about these other problems we just mentioned. They include things like changes in: - sleep - eating - energy - the ability to keep their mind on things - feeling badly about themselves Can you think of the worst time when you [FEELFILL] for two weeks or longer and also had these other problems at the same time?
+YO_MDEA5,
+YOWRSLEP,"Again, please think about the period of time/most recent period of time when your [FEELNOUN] and other problems were the worst. Did you have a lot more trouble than usual falling asleep or staying asleep most nights or waking too early most mornings during that [TIMEFILL] time?"
+YO_MDEA6,
+YOWRSLNO,Did anyone else notice that you were talking or moving more slowly than usual?
+YO_MDEA7,
+YOWRSLOW,Did you feel as though you were talking or moving more slowly than usual on most days during that [TIMEFILL] period of time?
+YO_MDEA8,
+YOWRSMOR,"During that [TIMEFILL] period of time, did you sleep a lot more than usual?"
+YOATTAK2,
+YOWRTHOT,"The next questions are about changes in your ability to concentrate, and your feelings about yourself. Again, in answering these questions, think about the period of time/most recent period of time when your [FEELNOUN] and other problems were the worst. On most days during that [TIMEFILL] time, did your thinking seem slower than usual or seem mixed up?"
+YOCOUNS,
+YOWRWRTH,Did you feel totally worthless nearly every day?
+YODPDISC,"During times when you felt sad, empty, or depressed most of the day, did you ever feel discouraged about how things were going in your life?"
+YPSY1MDE,
+YODPLSIN,"During the times when you felt sad, empty, or depressed, did you ever lose interest and become really bored with most things like school, work, hobbies, and other things that are usually fun for you, like listening to music, watching TV, movies, or sports, playing computer games, or going out with friends?"
+YPSY2MDE,
+YODPPROB,People who have problems with their mood often have other problems at the same time. These problems may include things like changes in: - sleep - eating - energy - the ability to keep their mind on things - feeling badly about themselves Did you ever have any of these problems during a period of time when you [FEELFILL] for two weeks or longer?
+YRELMDE,
+YODPR2WK,"Think about the times when you [FEELFILL]. Did you ever have a period of time like this that lasted most of the day, almost every day, for two weeks or longer?"
+YRXMDEYR,
+YODPREV,"The values in this section may be inconsistent with values for variables in other sections of the interview. Items in this section were edited when respondents legitimately skipped out of these items based on prior answers in earlier sections. Otherwise, variables in one section of the interview generally were not edited to make them consistent with variables in another section of the interview. This note applies to variables in this section marked by a1. Have you ever in your life had a period of time lasting several days or longer when most of the day you felt sad, empty, or depressed?"
+YSDSHOME,"NOTE: The following four variables make up the four role domains (chores at home, school or work, close relationships with family, and social life) of the Sheehan Disability Scale (SDS), which measures the impact of a disorder on an adolescent’s life."
+YODSCEV,Have you ever had a period of time lasting several days or longer when most of the day you felt very discouraged or hopeless about how things were going in your life?
+YSDSOVRL,"The following variable, YSDSOVRL, is assigned the maximum level of interference over the four role domains of SDS: chores at home (YSDSHOME), school or work (YSDSWRK), family relationships (YSDSREL), and social life (YSDSSOC)."
+YODSLSIN,"During times when you felt discouraged about how things were going in your life, did you ever lose interest and become really bored with most things like school, work, hobbies, and other things that are usually fun for you, like listening to music, watching TV, movies, or sports, playing computer games, or going out with friends?"
+YSDSREL,
+YODSMMDE,
+YSDSSOC,
+YOFAMDOC,"During the past 12 months, which professionals did you see or talk to about [NUMPROBS] with your mood?"
+YSDSWRK,
+YOFIGHT2,
+YSOCMDE,
+YOGRPFT2,
+YTHACT2,"The following variable, YTHACT2, was created by counting the number of positive responses reported over the following four youth activity questions: School-based (YESCHACT), community-based (YECOMACT), church or faith-based (YEFAIACT), or other activities (YEOTHACT). Youth respondents who reported participation in two or more activities were included in the ""Two or more activities"" category regardless of how many other activity questions were answered. Youth respondents who did not answer two or more of the four youth activity questions with a ""yes"" or ""no"" response were coded as system missing. To be included in the ""None or one activity"" category, a youth respondent must have answered two or more of the activity questions and reported they participated in either zero or one activity."
+YOHERBAL,
+YTXMDEYR,"NOTE: The following 25 variables are among all adolescent respondents who were asked the respective questions and are not confined to those respondents who were ultimately classified as having a Major Depressive Episode (MDE) in their lifetime or past year. To produce estimates among adolescents with MDE, the analysis will need to be restricted by either the lifetime MDE variable (YMDELT) or the past year MDE variable"
+YOHGUN2,
+YUCOSUIPLN,Was this because of the COVID-19 pandemic?
+YOLOSEV,"Have you ever had a period of time lasting several days or longer when you lost interest and became bored with most things you usually enjoy, like work, hobbies, and personal relationships?"
+YUCOSUIPLN2,
+YOLSI2WK,Did you ever have a period of time like this that lasted most of the day almost every day for two weeks or longer?
+YUCOSUITHK,Was this because of the COVID-19 pandemic?
+YOMDMDE,
+YUCOSUITHK2,
+YOMHMDE,
+YUSUIPLN,"During the past 12 months, did you make any plans to kill yourself?"
+YONURSE,
+YUSUIPLNYR,
+YOOTHDOC,
+YUSUITHK,"Note: Beginning in 2022, questions YSUI01, YCOV9, YSUI02, YCOV10, YSUI03, YCOV11, YSUI04, and YSUI05 were moved from the youth mental health service utilization section to the youth experiences section. The next few questions are about thoughts of suicide. You can answer “I’m not sure” or “I don’t want to answer” to any question. At any time in the past 12 months, that is from [DATEFILL] up to and including today, did you seriously think about trying to kill yourself?"
+YOOTHHLP,
+YUSUITHKYR,NOTE: The following four variables present youth suicide information based on responses to the youth suicidal ideation screen.
+YOOTHMHP,
+YOPB2WK,"In the past 12 months, did you have a period of time when you felt [FEELNOUN] for two weeks or longer while also having some of the other problems we asked about?"
+YOPBAGE,How old were you?
+YOPBDLYA,"During that [TIMEFILL] period of time, how often were you unable to carry out your daily activities or to take care of yourself because of these problems with your mood?"
+YOPBINTF,"You mentioned having some of the problems I just asked you about. During that [TIMEFILL] period of time, how much did your [FEELNOUN] interfere or cause problems with your school work, your job, or your relationships with family and friends?"
+Codebook Creation Date: 10/19/2023,

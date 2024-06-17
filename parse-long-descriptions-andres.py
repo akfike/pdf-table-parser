@@ -2,11 +2,7 @@ import pandas as pd
 import re
 import pdfplumber
 
-# Load the CSV file with variable names and page numbers
-csv_file_path = 'csvs/parsed_variables_pages.csv'
-print(f"Loading CSV file from {csv_file_path}")
-df = pd.read_csv(csv_file_path)
-print(f"CSV file loaded successfully with {len(df)} records")
+
 
 # Load the PDF file
 pdf_file_path = 'pdfs/NSDUH-2022-DS0001-info-codebook (1).pdf'
@@ -71,44 +67,53 @@ def clean_text(text):
             cleaned_lines.append(line)
     return '\n'.join(cleaned_lines).strip()
 
-# Extract descriptions for each variable
-descriptions = []
 
-with pdfplumber.open(pdf_file_path) as pdf:
-    print(f"PDF file loaded successfully with {len(pdf.pages)} pages")
-    for index, row in df.iterrows():
-        variable_name = row['variable_name']
-        logical_page_number = int(row['page_number'])
-        print(f"Processing variable '{variable_name}' on logical page number {logical_page_number}")
-        actual_page_number = find_page_by_logical_number(pdf, logical_page_number)
-        
-        if actual_page_number:
-            page_text = pdf.pages[actual_page_number - 1].extract_text()
-            page_text = clean_text(page_text)  # Clean the text to remove titles and footers
-            description = extract_description(page_text, variable_name)
-            if 'Description not found' in description:
-                description = ''  # Set empty if no description is found
-            descriptions.append({
-                'variable_name': variable_name,
-                'description': description
-            })
-            print(f"Description for '{variable_name}' added successfully")
-        else:
-            descriptions.append({
-                'variable_name': variable_name,
-                'description': ''
-            })
-            print(f"Page for '{variable_name}' not found")
+for i in range(0, 12):
 
-# Convert the descriptions to a DataFrame
-descriptions_df = pd.DataFrame(descriptions)
-print("Descriptions extracted and DataFrame created")
+    # Load the CSV file with variable names and page numbers
+    csv_file_path = f'csvs/parsed_variables_pages_{i}.csv'
+    print(f"Loading CSV file from {csv_file_path}")
+    df = pd.read_csv(csv_file_path)
+    print(f"CSV file loaded successfully with {len(df)} records")
 
-# Save the descriptions to a new CSV file
-output_file_path = 'csvs/variable_descriptions_andres.csv'
-print(f"Saving descriptions to {output_file_path}")
-descriptions_df.to_csv(output_file_path, index=False)
-print("Descriptions saved successfully")
+    # Extract descriptions for each variable
+    descriptions = []
 
-# Print the descriptions DataFrame
-print(descriptions_df)
+    with pdfplumber.open(pdf_file_path) as pdf:
+        print(f"PDF file loaded successfully with {len(pdf.pages)} pages")
+        for index, row in df.iterrows():
+            variable_name = row['variable_name']
+            logical_page_number = int(row['page_number'])
+            print(f"Processing variable '{variable_name}' on logical page number {logical_page_number}")
+            actual_page_number = find_page_by_logical_number(pdf, logical_page_number)
+            
+            if actual_page_number:
+                page_text = pdf.pages[actual_page_number - 1].extract_text()
+                page_text = clean_text(page_text)  # Clean the text to remove titles and footers
+                description = extract_description(page_text, variable_name)
+                if 'Description not found' in description:
+                    description = ''  # Set empty if no description is found
+                descriptions.append({
+                    'variable_name': variable_name,
+                    'description': description
+                })
+                print(f"Description for '{variable_name}' added successfully")
+            else:
+                descriptions.append({
+                    'variable_name': variable_name,
+                    'description': ''
+                })
+                print(f"Page for '{variable_name}' not found")
+
+    # Convert the descriptions to a DataFrame
+    descriptions_df = pd.DataFrame(descriptions)
+    print("Descriptions extracted and DataFrame created")
+
+    # Save the descriptions to a new CSV file
+    output_file_path = f'csvs/variable_descriptions_andres_{i}.csv'
+    print(f"Saving descriptions to {output_file_path}")
+    descriptions_df.to_csv(output_file_path, index=False)
+    print("Descriptions saved successfully")
+
+    # Print the descriptions DataFrame
+    print(descriptions_df)

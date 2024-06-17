@@ -1,0 +1,227 @@
+variable_name,description
+TRQNORXFG,NOTE: TRQNORXFG is set to 1 when respondents reported that the only way they misused tranquilizers in the past year was without a prescription. These respondents also reported that the last tranquilizer they misused was obtained through a prescription (a) from one doctor or (b) from more than one doctor.
+UDALWORKPRB,"Sometimes people who drink alcohol have serious problems at work, school, or home—such as: • missing a lot of work or school • getting demoted, having your hours cut, or losing a job • not being able to get a job or keep a job • getting suspended, expelled, or dropping out of school • failing to take care of family During the past 12 months, did you have any serious problems like these at work, school, or home because of your alcohol use?"
+UDHEWDFLBLU,"People may experience withdrawal symptoms when they use less or stop using heroin. During the past 12 months, did you have the following withdrawal symptoms after you used less or stopped using heroin for a while? Feeling kind of blue or down"
+TRQRSDGFX,
+UDALWSHSTOP,"In the past 12 months, did you often wish that you could cut down or stop drinking alcohol?"
+UDHEWDRUNNY,Having teary eyes or a runny nose
+TRQRSEMOT,
+UDCCAVOIDWD,"During the past 12 months, did you use cocaine or another drug to get over or avoid having cocaine withdrawal symptoms?"
+UDHEWDSLEEP,Having trouble sleeping
+TRQRSEXPT,
+UDCCAVWCOCN,Which of the following did you use to get over or avoid having cocaine withdrawal symptoms during the past 12 months? Cocaine
+UDHEWDSWEAT,"Feeling sweaty, having enlarged eye pupils, or having body hair standing up on your skin"
+TRQRSHIGH,
+UDCCAVWMETH,Methamphetamine
+UDHEWDVOMIT,Vomiting or feeling nauseous
+TRQRSHOOK,
+UDCCAVWOTHR,Something else
+UDHEWDYAWNS,Yawning
+TRQRSMAIN,Which was the main reason you used [TRLASTFILL2] the last time?
+UDCCAVWSTIM,Prescription stimulants or uppers
+UDHEWORKPRB,"Sometimes people who use heroin have serious problems at work, school, or home—such as: • missing a lot of work or school • getting demoted, having your hours cut, or losing a job • not being able to get a job or keep a job • getting suspended, expelled, or dropping out of school • failing to take care of family During the past 12 months, did you have any serious problems like these at work, school, or home because of your use of heroin?"
+TRQRSOTRS2,"Please type in the other reason you used [TRLASTFILL2] the last time. When you have finished typing your answer, press [ENTER] to go to the next question."
+UDCCFMLYCTD,Did you continue to use cocaine even though it often caused arguments or problems with family or friends?
+UDHEWSHSTOP,"In the past 12 months, did you often wish that you could cut down or stop using heroin?"
+TRQRSRELX,Now think about the last time you used [TRLASTFILL2] in any way a doctor did not direct you to use it/them. What were the reasons you used [TRLASTFILL2] the last time?
+UDCCFMLYPRB,"During the past 12 months, did you often have arguments or other problems with family or friends that were caused or made worse by your use of cocaine?"
+UDINFMLYCTD,Did you continue to use inhalants even though they often caused arguments or problems with family or friends?
+TRQRSSLEP,
+UDCCGETHURT,"During the past 12 months, did you repeatedly get into situations where using cocaine increased your chances of getting physically hurt?"
+UDINFMLYPRB,"During the past 12 months, did you often have arguments or other problems with family or friends that were caused or made worse by your use of inhalants?"
+TRQRSSOR,
+UDCCHLTHCTD,Did you continue to use cocaine even though it was causing long-lasting or repeated physical health problems or making your physical health problems worse?
+UDINGETHURT,"During the past 12 months, did you repeatedly get into situations where using inhalants increased your chances of getting physically hurt?"
+TRQWYGAMT,
+UDCCHLTHPRB,"During the past 12 months, did you have any long-lasting or repeated physical health problems that were caused or made worse by using cocaine?"
+UDINHLTHCTD,Did you continue to use inhalants even though they were causing long-lasting or repeated physical health problems or making your physical health problems worse?
+TRQWYLNGR,
+UDCCLESSEFF,Does using the same amount of cocaine have much less effect on you than it used to?
+UDINHLTHPRB,"During the past 12 months, did you have any long-lasting or repeated physical health problems that were caused or made worse by using inhalants?"
+TRQWYNORX,Which of these statements describe your use of [TRNAMEFILL] at any time in the past 12 months?
+UDCCLRGAMTS,"During the past 12 months, were there many times when you ended up using cocaine in larger amounts or for a longer time than you meant to?"
+UDINLESSEFF,Does using the same amount of inhalants have much less effect on you than it used to?
+TRQWYOFTN,
+UDCCMNTLCTD,Did you continue to use cocaine even though it was causing long-lasting or repeated problems with your emotions or mental health or making your emotions or mental health worse?
+UDINLRGAMTS,"During the past 12 months, were there many times when you ended up using inhalants in larger amounts or for a longer time than you meant to?"
+TRQWYOTWY,
+UDCCMNTLPRB,"During the past 12 months, did you have any long-lasting or repeated problems with emotions or mental health that were caused or made worse by using cocaine?"
+UDINMNTLCTD,Did you continue to use inhalants even though they were causing long-lasting or repeated problems with your emotions or mental health or making your emotions or mental health worse?
+UADBAR,
+UDCCNEEDMOR,Do you need to use a lot more cocaine than you used to in order to get the feeling you want?
+UDINMNTLPRB,"During the past 12 months, did you have any long-lasting or repeated problems with emotions or mental health that were caused or made worse by using inhalants?"
+UADBUND,"A respondent was assigned a value of UADBUND=3 if they did not use alcohol in the past month, were aged 21 or older, were past month alcohol users who were under 21 and bought it at a store, restaurant, bar, club, or event, were past month alcohol users who were under 21 but did not pay for their most recent alcohol, or were past month alcohol users who were under 21 and paid for their most recent alcohol but did not buy it themselves (CABUNDAG=89, 91, 93, 99)."
+UDCCNOTSTOP,Some people who use cocaine try to cut down or stop but find they can’t. Was there more than one time in the past 12 months when you tried but were unable to cut down or stop using cocaine?
+UDINNEEDMOR,Do you need to use a lot more inhalants than you used to in order to get the feeling you want?
+UADBWHO,"A respondent was assigned a value of UADBWHO=3 if they did not use alcohol in the past month, were aged 21 or older, were past month alcohol users who were under 21 but did not pay for their most recent alcohol, or were past month alcohol users who were under 21 and paid for their most recent alcohol but did not buy it themselves (CABUYWHO=89, 91, 93, 99)."
+UDCCSTOPACT,"This question is about important activities such as: • Spending time with friends and family • Attending special events at work or school • Participating in hobbies and sports • Attending religious services and events During the past 12 months, did you give up or spend a lot less time doing any of these types of important activities because of your use of cocaine?"
+UDINNOTSTOP,Some people who use inhalants try to cut down or stop but find they can’t. Was there more than one time in the past 12 months when you tried but were unable to cut down or stop using inhalants?
+UADCAG,"A respondent was assigned a value of UADCAG=5 if they did not use alcohol in the past month, were aged 21 or older, were past month alcohol users who were under 21 but did not pay for their most recent alcohol, or were past month alcohol users who were under 21 but bought it themselves (CAGVWHO=89, 91, 93, 99)."
+UDCCSTRURGE,"During the past 12 months, were there times when you had a strong urge to use cocaine?"
+UDINSTOPACT,"This question is about important activities such as: • Spending time with friends and family • Attending special events at work or school • Participating in hobbies and sports • Attending religious services and events During the past 12 months, did you give up or spend a lot less time doing any of these types of important activities because of your use of inhalants?"
+UADCAR,NOTE: The following eight variables define the locations where respondents had their most recent alcohol use.
+UDCCTIMEGET,"During the past 12 months, did you spend a great deal of your time getting or trying to get cocaine?"
+UDINSTRURGE,"During the past 12 months, were there times when you had a strong urge to use inhalants?"
+UADEVNT,
+UDCCTIMEUSE,"Think about your use of cocaine, including the form of cocaine called ‘crack,’ during the past 12 months as you answer these next questions. During the past 12 months, did you spend a great deal of your time using cocaine, feeling its effects, or getting over the effects of cocaine?"
+UDINTIMEGET,"During the past 12 months, did you spend a great deal of your time getting or trying to get inhalants?"
+UADFRD,"The following variable, UADFRD, was assigned a negative response if a respondent indicated receiving their most recent alcohol not from a friend (CAFREWHO=1-6, 11-16) or from some other person besides a friend (CAFREWHO=7 & CAFRESP2=7, 8-21, 23-42). A missing was assigned if a respondent indicated that some other person gave them the last alcohol they drank (CAFREWHO=7) and their response to the other-specify follow-up question was unknown (CAFRESP2=70, 85, 94, 97, 98) or if they did not indicate who gave them the last alcohol they drank (CAFREWHO=85, 94, 97, 98). A respondent was assigned a value of UADFRD=3 if they did not use alcohol in the past month, were aged 21 or older, or were past month alcohol users who were under 21 but paid for it themselves (CAFREWHO=89,91,93,99)."
+UDCCTRYSTOP,"During the past 12 months, did you try to cut down or try to stop using cocaine?"
+UDINTIMEUSE,"Think about your use of inhalants, such as amyl nitrite, ‘poppers,’ nitrous oxide, gasoline or lighter fluids, glue, spray paints, or correction fluids, during the past 12 months as you answer these next questions. During the past 12 months, did you spend a great deal of your time using inhalants, feeling their effects, or getting over the effects of inhalants?"
+UADFWHO,"The following variable, UADFWHO, was assigned missing if a respondent indicated that some other person gave them the last alcohol they drank (CAFREWHO=7) and their response to the other-specify follow-up question was unknown (CAFRESP2=70, 85, 94, 97, 98) or if they did not indicate who gave them the last alcohol they drank (CAFREWHO=85, 94, 97, 98). A respondent was assigned a value of UADFWHO=8 if they did not use alcohol in the past month, were aged 21 or older, or were past month alcohol users who were under 21 but paid for it themselves"
+UDCCWANTBAD,"During the past 12 months, were there times when you wanted to use cocaine so badly that you couldn't think of anything else?"
+UDINTRYSTOP,"During the past 12 months, did you try to cut down or try to stop using inhalants?"
+UADHOME,
+UDCCWDDREAM,Having bad dreams
+UDINWANTBAD,"During the past 12 months, were there times when you wanted to use inhalants so badly that you couldn't think of anything else?"
+UADMONY,"A respondent was assigned a value of UADMONY=3 if they did not use alcohol in the past month, were aged 21 or older, or were past month alcohol users who were under 21 but did not pay for their most recent alcohol (CAGVMONY=89, 91, 93, 99)."
+UDCCWDFLBLU,"People may experience withdrawal symptoms when they use less or stop using cocaine. During the past 12 months, have you felt kind of blue or down after you used less or stopped using cocaine for a while?"
+UDINWORKPRB,"Sometimes people who use inhalants have serious problems at work, school, or home—such as: • missing a lot of work or school • getting demoted, having your hours cut, or losing a job • not being able to get a job or keep a job • getting suspended, expelled, or dropping out of school • failing to take care of family During the past 12 months, did you have any serious problems like these at work, school, or home because of your use of inhalants?"
+UADOTHM,
+UDCCWDHNGRY,Feeling hungry more often
+UDINWSHSTOP,"In the past 12 months, did you often wish that you could cut down or stop using inhalants?"
+UADOTSP2,
+UDCCWDSITST,Feeling either very slowed down or like you couldn’t sit still
+UDMEAVOIDWD,"During the past 12 months, did you use methamphetamine or another drug to get over or avoid having methamphetamine withdrawal symptoms?"
+UADPAID,
+UDCCWDSLEEP,Having trouble sleeping or sleeping more than you normally do
+UDMEAVWCOCN,Cocaine or crack
+UADPEOP,"NOTE: The variables in this section are recoded variables that were created from one or more of the edited variables from the preceding section. NOTE: Certain source variables that were used to create recoded variables have valid values that might not have been reported or assigned for the current survey year. However, these values have been included in the general specifications in the codebook on how the recoded variables were created. See additional details about this issue in the Organization of the Data File section of this codebook introduction. The following variable defines the social context of a respondent's last alcohol use, including whether they drank alone or if they were with one or more persons."
+UDCCWDTIRED,"During the past 12 months, did you have the following withdrawal symptoms after you used less or stopped using cocaine for a while? Feeling tired or exhausted"
+UDMEAVWMETH,Which of the following did you use to get over or avoid having methamphetamine withdrawal symptoms during the past 12 months? Methamphetamine
+UADPLACE,"A respondent was assigned a value of UADPLACE=4 if they did not use alcohol in the past month, were aged 21 or older, were past month alcohol users who were under 21 but bought from another person, were past month alcohol users who were under 21 but did not pay for their most recent alcohol, or were past month alcohol users who were under 21 and paid for their most recent alcohol but did not buy it themselves (CABPLACE=89, 91, 93, 99)."
+UDCCWORKPRB,"Sometimes people who use cocaine have serious problems at work, school, or home—such as: • missing a lot of work or school • getting demoted, having your hours cut, or losing a job • not being able to get a job or keep a job • getting suspended, expelled, or dropping out of school • failing to take care of family During the past 12 months, did you have any serious problems like these at work, school, or home because of your use of cocaine?"
+UDMEAVWOTHR,Something else
+UADPUBL,
+UDCCWSHSTOP,"In the past 12 months, did you often wish that you could cut down or stop using cocaine?"
+UDMEAVWSTIM,Prescription stimulants or uppers
+UADROTH,"The following variable, UADROTH, was assigned a negative response if a respondent indicated not receiving their most recent alcohol from some other place (CADROTH=6) or indicated receiving their most recent alcohol from one of the other specific locations asked about (CADROTH=1 & CADROTS2=1-7). A missing was assigned if a respondent indicated that they received their most recent alcohol from some other place (CADROTH=1) and their response to the other-specify follow-up question was invalid or unknown (CADROTS2=70, 85, 94, 97, 98) or if they were not alcohol users, or did not indicate any location for their most recent alcohol use (CADROTH=91, 93, 94, 97, 98, 99)."
+UDHAFMLYCTD,Did you continue to use hallucinogens even though they often caused arguments or problems with family or friends?
+UDMEFMLYCTD,Did you continue to use methamphetamine even though it often caused arguments or problems with family or friends?
+UADSCHL,
+UDHAFMLYPRB,"During the past 12 months, did you often have arguments or other problems with family or friends that were caused or made worse by your use of hallucinogens?"
+UDMEFMLYPRB,"During the past 12 months, did you often have arguments or other problems with family or friends that were caused or made worse by your use of methamphetamine?"
+UD5ALNILANY,NOTE: UD5ALNILANY was created using the DSM-5 based SUD variables that include use disorder data from all past year users of prescription drugs.
+UDHAGETHURT,"During the past 12 months, did you repeatedly get into situations where using hallucinogens increased your chances of getting physically hurt?"
+UDMEGETHURT,"During the past 12 months, did you repeatedly get into situations where using methamphetamine increased your chances of getting physically hurt?"
+UD5CNSANY,NOTE: UD5CNSANY was created using the DSM-5 based SUD variables that include use disorder data from all past year users of prescription stimulants.
+UDHAHLTHCTD,Did you continue to use hallucinogens even though they were causing long-lasting or repeated physical health problems or making your physical health problems worse?
+UDMEHLTHCTD,Did you continue to use methamphetamine even though it was causing long-lasting or repeated physical health problems or making your physical health problems worse?
+UD5HRPNRANY,NOTE: UD5HRPNRANY was created using the DSM-5 based SUD variables that include use disorder data from all past year users of prescription pain relievers.
+UDHAHLTHPRB,"During the past 12 months, did you have any long-lasting or repeated physical health problems that were caused or made worse by using hallucinogens?"
+UDMEHLTHPRB,"During the past 12 months, did you have any long-lasting or repeated physical health problems that were caused or made worse by using methamphetamine?"
+UD5IEMANY,"NOTE: UD5IEMANY was created using the DSM-5 based SUD variables that include use disorder data from all past year users of prescription drugs. (IRPYUD5COC, IRPYUD5HAL, IRPYUD5HER, IRPYUD5INH, IRPYUD5MTH, UDYR5PNRANY, UDYR5SEDANY, UDYR5STMANY,"
+UDHALESSEFF,Does using the same amount of hallucinogens have much less effect on you than it used to?
+UDMELESSEFF,Does using the same amount of methamphetamine have much less effect on you than it used to?
+UD5ILAALANY,NOTE: UD5ILAALANY was created using the DSM-5 based SUD variables that include use disorder data from all past year users of prescription drugs.
+UDHALRGAMTS,"During the past 12 months, were there many times when you ended up using hallucinogens in larger amounts or for a longer time than you meant to?"
+UDMELRGAMTS,"During the past 12 months, were there many times when you ended up using methamphetamine in larger amounts or for a longer time than you meant to?"
+UD5ILALANY,NOTE: UD5ILALANY was created using the DSM-5 based SUD variables that include use disorder data from all past year users of prescription drugs.
+UDHAMNTLCTD,Did you continue to use hallucinogens even though they were causing long-lasting or repeated problems with your emotions or mental health or making your emotions or mental health worse?
+UDMEMNTLCTD,Did you continue to use methamphetamine even though they were causing long-lasting or repeated problems with your emotions or mental health or making your emotions or mental health worse?
+UD5ILLANY,"NOTE: UD5ILLANY was created using the DSM-5 based SUD variables that include use disorder data from all past year users of prescription drugs. (IRPYUD5COC, IRPYUD5HAL, IRPYUD5HER, IRPYUD5INH, IRPYUD5MRJ, IRPYUD5MTH, UDYR5PNRANY, UDYR5SEDANY,"
+UDHAMNTLPRB,"During the past 12 months, did you have any long-lasting or repeated problems with emotions or mental health that were caused or made worse by using hallucinogens?"
+UDMEMNTLPRB,"During the past 12 months, did you have any long-lasting or repeated problems with emotions or mental health that were caused or made worse by using methamphetamine?"
+UD5ILNALANY,NOTE: UD5ILNALANY was created using the DSM-5 based SUD variables that include use disorder data from all past year users of prescription drugs.
+UDHANEEDMOR,Do you need to use a lot more hallucinogens than you used to in order to get the feeling you want?
+UDMENEEDMOR,Do you need to use a lot more methamphetamine than you used to in order to get the feeling you want?
+UD5OPIANY,NOTE: UD5OPIANY was created using the DSM-5 based SUD variables that include use disorder data from all past year users of prescription pain relievers.
+UDHANOTSTOP,Some people who use hallucinogens try to cut down or stop but find they can’t. Was there more than one time in the past 12 months when you tried but were unable to cut down or stop using hallucinogens?
+UDMENOTSTOP,Some people who use methamphetamine try to cut down or stop but find they can’t. Was there more than one time in the past 12 months when you tried but were unable to cut down or stop using methamphetamine?
+UD5PSYANY,"NOTE: UD5PSYANY was created using the DSM-5 based SUD variables that include use disorder data from all past year users of prescription drugs. (UDYR5PNRANY, UDYR5SEDANY, UDYR5STMANY, UDYR5TRQANY)"
+UDHASTOPACT,"This question is about important activities such as: • Spending time with friends and family • Attending special events at work or school • Participating in hobbies and sports • Attending religious services and events During the past 12 months, did you give up or spend a lot less time doing any of these types of important activities because of your use of hallucinogens?"
+UDMESTOPACT,"This question is about important activities such as: • Spending time with friends and family • Attending special events at work or school • Participating in hobbies and sports • Attending religious services and events During the past 12 months, did you give up or spend a lot less time doing any of these types of important activities because of your use of methamphetamine?"
+UD5TRQSDANY,NOTE: UD5TRQSDANY was created using the DSM-5 based SUD variables that include use disorder data from all past year users of prescription tranquilizers or sedatives.
+UDHASTRURGE,"During the past 12 months, were there times when you had a strong urge to use hallucinogens?"
+UDMESTRURGE,"During the past 12 months, were there times when you had a strong urge to use methamphetamine?"
+UDALAVOIDWD,"During the past 12 months, did you use alcohol or another drug to get over or avoid having alcohol withdrawal symptoms?"
+UDHATIMEGET,"During the past 12 months, did you spend a great deal of your time getting or trying to get hallucinogens?"
+UDMETIMEGET,"During the past 12 months, did you spend a great deal of your time getting or trying to get methamphetamine?"
+UDALAVWALCO,Which of the following did you use to get over or avoid having alcohol withdrawal symptoms during the past 12 months? Alcohol
+UDHATIMEUSE,"Think about your use of hallucinogens, such as LSD, ‘acid,’ PCP, ‘Ecstasy’ or ‘Molly,’ psilocybin or mushrooms, mescaline, or peyote, during the past 12 months as you answer these next questions. During the past 12 months, did you spend a great deal of your time using hallucinogens, feeling their effects, or getting over the effects of hallucinogens?"
+UDMETIMEUSE,"Think about your use of methamphetamine during the past 12 months as you answer these next questions. During the past 12 months, did you spend a great deal of your time using methamphetamine, feeling its effects, or getting over the effects of methamphetamine?"
+UDALAVWOTHR,Something else
+UDHATRYSTOP,"During the past 12 months, did you try to cut down or try to stop using hallucinogens?"
+UDMETRYSTOP,"During the past 12 months, did you try to cut down or try to stop using methamphetamine?"
+UDALAVWSVTR,"Prescription sedatives, tranquilizers, sleeping pills, or downers"
+UDHAWANTBAD,"During the past 12 months, were there times when you wanted to use hallucinogens so badly that you couldn't think of anything else?"
+UDMEWANTBAD,"During the past 12 months, were there times when you wanted to use methamphetamine so badly that you couldn't think of anything else?"
+UDALBLCKCTD,Did you continue to drink alcohol even though drinking gave you repeated blackouts?
+UDHAWORKPRB,"Sometimes people who use hallucinogens have serious problems at work, school, or home—such as: • missing a lot of work or school • getting demoted, having your hours cut, or losing a job • not being able to get a job or keep a job • getting suspended, expelled, or dropping out of school • failing to take care of family During the past 12 months, did you have any serious problems like these at work, school, or home because of your use of hallucinogens?"
+UDMEWDDREAM,Having bad dreams
+UDALBLCKOUT,"A blackout is lack of memory. That is, you were awake, but you have no recall of the things you did or that were done to you. During the past 12 months, did you repeatedly have blackouts while drinking or after drinking alcohol?"
+UDHAWSHSTOP,"In the past 12 months, did you often wish that you could cut down or stop using hallucinogens?"
+UDMEWDFLBLU,"People may experience withdrawal symptoms when they use less or stop using methamphetamine. During the past 12 months, have you felt kind of blue or down after you used less or stopped using methamphetamine for a while?"
+UDALFMLYCTD,Did you continue to drink alcohol even though it often caused arguments or problems with family or friends?
+UDHEAVOIDWD,"During the past 12 months, did you use heroin or another drug to get over or avoid having heroin withdrawal symptoms?"
+UDMEWDHNGRY,Feeling hungry more often
+UDALFMLYPRB,"During the past 12 months, did you often have arguments or other problems with family or friends that were caused or made worse by your alcohol use?"
+UDHEAVWHERN,Which of the following did you use to get over or avoid having heroin withdrawal symptoms during the past 12 months? Heroin
+UDMEWDSITST,Feeling either very slowed down or like you couldn’t sit still
+UDALGETHURT,"During the past 12 months, did you repeatedly get into situations where drinking alcohol increased your chances of getting physically hurt?"
+UDHEAVWOTHR,Something else
+UDMEWDSLEEP,Having trouble sleeping or sleeping more than you normally do
+UDALHLTHCTD,Did you continue to drink alcohol even though it was causing long-lasting or repeated physical health problems or making your physical health problems worse?
+UDHEAVWPNRL,Prescription pain relievers
+UDMEWDTIRED,"During the past 12 months, did you have the following withdrawal symptoms after you used less or stopped using methamphetamine for a while? Feeling tired or exhausted"
+UDALHLTHPRB,"During the past 12 months, did you have any long-lasting or repeated physical health problems that were caused or made worse by drinking alcohol?"
+UDHEFMLYCTD,Did you continue to use heroin even though it often caused arguments or problems with family or friends?
+UDMEWORKPRB,"Sometimes people who use methamphetamine have serious problems at work, school, or home—such as: • missing a lot of work or school • getting demoted, having your hours cut, or losing a job • not being able to get a job or keep a job • getting suspended, expelled, or dropping out of school • failing to take care of family During the past 12 months, did you have any serious problems like these at work, school, or home because of your use of methamphetamine?"
+UDALLESSEFF,Does drinking the same amount of alcohol have much less effect on you than it used to?
+UDHEFMLYPRB,"During the past 12 months, did you often have arguments or other problems with family or friends that were caused or made worse by your use of heroin?"
+UDMEWSHSTOP,"In the past 12 months, did you often wish that you could cut down or stop using methamphetamine?"
+UDALLRGAMTS,"During the past 12 months, were there many times when you ended up drinking alcohol in larger amounts or for a longer time than you meant to?"
+UDHEGETHURT,"During the past 12 months, did you repeatedly get into situations where using heroin increased your chances of getting physically hurt?"
+UDMJAVOIDWD,"During the past 12 months, did you use marijuana, any cannabis product, or another drug to get over or avoid having marijuana or any cannabis product withdrawal symptoms?"
+UDALMNTLCTD,Did you continue to drink alcohol even though it was causing long-lasting or repeated problems with your emotions or mental health or making your emotions or mental health worse?
+UDHEHLTHCTD,Did you continue to use heroin even though it was causing long-lasting or repeated physical health problems or making your physical health problems worse?
+UDMJAVWMARJ,Which of the following did you use to get over or avoid having marijuana or any cannabis product withdrawal symptoms during the past 12 months? Marijuana or any cannabis product
+UDALMNTLPRB,"During the past 12 months, did you have any long-lasting or repeated problems with emotions or mental health that were caused or made worse by drinking alcohol?"
+UDHEHLTHPRB,"During the past 12 months, did you have any long-lasting or repeated physical health problems that were caused or made worse by using heroin?"
+UDMJAVWOTHR,Something else
+UDALNEEDMOR,Do you need to drink a lot more alcohol than you used to in order to get the feeling you want?
+UDHELESSEFF,Does using the same amount of heroin have much less effect on you than it used to?
+UDMJFMLYCTD,Did you continue to use marijuana or any cannabis product even though it often caused arguments or problems with family or friends?
+UDALNOTSTOP,Some people who drink alcohol try to cut down or stop but find they can’t. Was there more than one time in the past 12 months when you tried but were unable to cut down or stop drinking alcohol?
+UDHELRGAMTS,"During the past 12 months, were there many times when you ended up using heroin in larger amounts or for a longer time than you meant to?"
+UDMJFMLYPRB,"During the past 12 months, did you often have arguments or other problems with family or friends that were caused or made worse by your use of marijuana or any cannabis product?"
+UDALSTOPACT,"This question is about important activities such as: • Spending time with friends and family • Attending special events at work or school • Participating in hobbies and sports • Attending religious services and events During the past 12 months, did you give up or spend a lot less time doing any of these types of important activities because of your alcohol use?"
+UDHEMNTLCTD,Did you continue to use heroin even though it was causing long-lasting or repeated problems with your emotions or mental health or making your emotions or mental health worse?
+UDMJGETHURT,"During the past 12 months, did you repeatedly get into situations where using marijuana or any cannabis product increased your chances of getting physically hurt?"
+UDALSTRURGE,"During the past 12 months, were there times when you had a strong urge to drink alcohol?"
+UDHEMNTLPRB,"During the past 12 months, did you have any long-lasting or repeated problems with emotions or mental health that were caused or made worse by using heroin?"
+UDMJHLTHCTD,Did you continue to use marijuana or any cannabis product even though it was causing long-lasting or repeated physical health problems or making your physical health problems worse?
+UDALTIMEGET,"During the past 12 months, did you spend a great deal of your time getting or trying to get alcohol?"
+UDHENEEDMOR,Do you need to use a lot more heroin than you used to in order to get the feeling you want?
+UDMJHLTHPRB,"During the past 12 months, did you have any long-lasting or repeated physical health problems that were caused or made worse by using marijuana or any cannabis product?"
+UDALTIMEUSE,"Think about your use of alcohol during the past 12 months as you answer these next questions. During the past 12 months, did you spend a great deal of your time drinking alcohol, feeling its effects, or getting over the effects of drinking?"
+UDHENOTSTOP,Some people who use heroin try to cut down or stop but find they can’t. Was there more than one time in the past 12 months when you tried but were unable to cut down or stop using heroin?
+UDMJLESSEFF,Does using the same amount of marijuana or any cannabis product have much less effect on you than it used to?
+UDALTRYSTOP,"During the past 12 months, did you try to cut down or try to stop drinking alcohol?"
+UDHESTOPACT,"This question is about important activities such as: • Spending time with friends and family • Attending special events at work or school • Participating in hobbies and sports • Attending religious services and events During the past 12 months, did you give up or spend a lot less time doing any of these types of important activities because of your use of heroin?"
+UDMJLRGAMTS,"During the past 12 months, were there many times when you ended up using marijuana or any cannabis product in larger amounts or for a longer time than you meant to?"
+UDALWANTBAD,"During the past 12 months, were there times when you wanted to drink alcohol so badly that you couldn't think of anything else?"
+UDHESTRURGE,"During the past 12 months, were there times when you had a strong urge to use heroin?"
+UDMJMNTLCTD,Did you continue to use marijuana or any cannabis product even though it was causing long-lasting or repeated problems with your emotions or mental health or making your emotions or mental health worse?
+UDALWDFLANX,Feeling anxious
+UDHETIMEGET,"During the past 12 months, did you spend a great deal of your time getting or trying to get heroin?"
+UDMJMNTLPRB,"During the past 12 months, did you have any long-lasting or repeated problems with emotions or mental health that were caused or made worse by using marijuana or any cannabis product?"
+UDALWDHALUC,"Seeing, hearing, or feeling things that weren't really there"
+UDHETIMEUSE,"Think about your use of heroin during the past 12 months as you answer these next questions. During the past 12 months, did you spend a great deal of your time using heroin, feeling its effects, or getting over the effects of heroin?"
+UDMJNEEDMOR,Do you need to use a lot more marijuana or any cannabis product than you used to in order to get the feeling you want?
+UDALWDSITST,Feeling like you couldn't sit still
+UDHETRYSTOP,"During the past 12 months, did you try to cut down or try to stop using heroin?"
+UDMJNOTSTOP,Some people who use marijuana or any cannabis product try to cut down or stop but find they can’t. Was there more than one time in the past 12 months when you tried but were unable to cut down or stop using marijuana or any cannabis product?
+UDALWDSLEEP,Having trouble sleeping
+UDHEWANTBAD,"During the past 12 months, were there times when you wanted to use heroin so badly that you couldn't think of anything else?"
+UDMJSTOPACT,"This question is about important activities such as: • Spending time with friends and family • Attending special events at work or school • Participating in hobbies and sports • Attending religious services and events During the past 12 months, did you give up or spend a lot less time doing any of these types of important activities because of your use of marijuana or any cannabis product?"
+UDALWDSWEAT,"People may experience withdrawal symptoms when they drink less or stop drinking alcohol. Withdrawal symptoms are stronger and last longer than a hangover. During the past 12 months, did you have the following withdrawal symptoms after you drank less or stopped drinking alcohol for a while? Sweating or feeling that your heart was beating fast"
+UDHEWDCRAMP,Having cramps or muscle aches
+UDMJSTRURGE,"During the past 12 months, were there times when you had a strong urge to use marijuana or any cannabis product?"
+UDALWDTRMBL,Having your hands tremble
+UDHEWDDIARR,Having diarrhea
+UDMJTIMEGET,"During the past 12 months, did you spend a great deal of your time getting or trying to get marijuana or any cannabis product?"
+UDALWDVOMIT,Vomiting or having an upset stomach
+UDHEWDFEVER,Having a fever
+UDMJTIMEUSE,"Think about your use of marijuana or any cannabis product during the past 12 months as you answer these next questions. During the past 12 months, did you spend a great deal of your time using marijuana or any cannabis product, feeling its effects, or getting over the effects of marijuana or any cannabis product?"
+Codebook Creation Date: 10/19/2023,
