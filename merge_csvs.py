@@ -1,16 +1,20 @@
 import pandas as pd
 
 # Load the two CSV files
-descriptions_csv_path = 'csvs/variable_descriptions.csv'
-consolidated_csv_path = 'consolidated_nsduh_data_1.csv'
+descriptions_csv_path = 'variable_descriptions.csv'
+consolidated_csv_path = 'consolidated_nsduh_data_main.csv'
 
 print(f"Loading descriptions CSV file from {descriptions_csv_path}")
 descriptions_df = pd.read_csv(descriptions_csv_path)
 print(f"Descriptions CSV loaded successfully with {len(descriptions_df)} records")
 
-print(f"Loading consolidated CSV file from {consolidated_csv_path}")
-consolidated_df = pd.read_csv(consolidated_csv_path)
-print(f"Consolidated CSV loaded successfully with {len(consolidated_df)} records")
+# Load the CSV file with a specific encoding
+try:
+    consolidated_df = pd.read_csv(consolidated_csv_path, encoding='ISO-8859-1')
+    print("CSV file loaded successfully.")
+except UnicodeDecodeError:
+    print("Error loading CSV file. Trying with a different encoding.")
+    consolidated_df = pd.read_csv(consolidated_csv_path, encoding='latin1')
 
 # Merge the two DataFrames on variable_name == Question_Code
 merged_df = pd.merge(consolidated_df, descriptions_df[['variable_name', 'description']], left_on='Question_Code', right_on='variable_name', how='left')

@@ -16,10 +16,12 @@ openpyxl==3.1.4
 packaging==24.1
 pandas==2.2.2
 pdfminer.six==20231228
+pdfplumber==0.11.1
 pillow==10.3.0
 pycparser==2.22
 pyparsing==3.1.2
 PyPDF2==2.10.0
+pypdfium2==4.30.0
 python-dateutil==2.9.0.post0
 pytz==2024.1
 six==1.16.0
