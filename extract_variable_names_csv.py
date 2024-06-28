@@ -2,11 +2,15 @@ import pandas as pd
 
 def extract_variable_names():
     # Hardcoded paths for the CSV file and the output file
-    csv_file_path = 'datasets/NSUMHSS_2022_PUF_CSV.csv'
-    output_file_path = 'nsumhss_variables.txt'
+    csv_file_path = 'datasets/nmhss-puf-2020-csv.csv'
+    output_file_path = 'nmhss_variables.txt'
 
-    # Load the CSV file
-    data = pd.read_csv(csv_file_path)
+    # Load the CSV file with a specific encoding
+    try:
+        data = pd.read_csv(csv_file_path, encoding='latin1')
+    except UnicodeDecodeError as e:
+        print(f"Error reading {csv_file_path}: {e}")
+        return
 
     # Extract the column names (variable names)
     variable_names = data.columns.tolist()

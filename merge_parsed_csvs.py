@@ -19,7 +19,7 @@ def merge_csv_files(folder_path):
 
     folder_path = 'csvs/clean_csvs'
     # Save the merged DataFrame to a new CSV file
-    merged_df.to_csv(f'{folder_path}/nsumhss_2022_codebook.csv', index=False, quoting=csv.QUOTE_NONNUMERIC)
+    merged_df.to_csv(f'{folder_path}/nmhss_2020_codebook.csv', index=False, quoting=csv.QUOTE_NONNUMERIC)
 
     # Return the merged DataFrame
     return merged_df
