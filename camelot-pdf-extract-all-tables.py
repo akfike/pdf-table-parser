@@ -4,7 +4,7 @@ from ctypes.util import find_library
 print(find_library("gs")) # Make sure you have ghostscript installed (thru homebrew or other)
 
 # Specify the path to your PDF file
-pdf_path = "pdfs/2020 N-MHSS Codebook.pdf"
+pdf_path = "pdfs/NSSATS-2020-PUF-C.pdf"
 
 # Extract tables using stream mode (for tables without borders) # 42-598
 tables = camelot.read_pdf(
@@ -26,4 +26,4 @@ for i, table in enumerate(tables):
     print(f"Table {i}")
     print(table.parsing_report)
     table.df = convert_columns_to_string(table.df)
-    table.to_csv(f"csvs/nmhss_table_{i}.csv")
+    table.to_csv(f"csvs/nsatts_table_{i}.csv")

@@ -2,8 +2,8 @@ import pandas as pd
 
 def extract_variable_names():
     # Hardcoded paths for the CSV file and the output file
-    csv_file_path = 'datasets/nmhss-puf-2020-csv.csv'
-    output_file_path = 'nmhss_variables.txt'
+    csv_file_path = 'datasets/NSSATS_PUF_2020_CSV.csv'
+    output_file_path = 'nsatts_variables.txt'
 
     # Load the CSV file with a specific encoding
     try:
