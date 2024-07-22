@@ -23,4 +23,6 @@ def main():
     extract_variable_names(args.tsv_file_path, args.output_file_path)
 
 if __name__ == "__main__":
-    main()
+    tsv_file = "datasets/37692-0001-Data.tsv"
+    output_file = "spi_variables.txt"
+    extract_variable_names(tsv_file, output_file)

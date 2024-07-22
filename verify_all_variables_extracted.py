@@ -25,12 +25,13 @@ def verify_variables_in_csv(text_file_path, csv_file_path, column_name):
         print("The following variables are missing in the CSV file:")
         for var in missing_variables:
             print(var)
+        print("Count: ", len(missing_variables))
     else:
         print("All variables from the text file are present in the CSV file.")
 
 # Specify the paths to the text file and the CSV file
-text_file_path = 'nsatts_variables.txt'  # Path to your text file with variables
-csv_file_path = 'csvs/clean_csvs/nsatts_2020_codebook.csv'  # Path to your CSV file
+text_file_path = 'spi_variables.txt'  # Path to your text file with variables
+csv_file_path = 'csvs/clean_csvs/spi_2016_codebook.csv'  # Path to your CSV file
 column_name = 'Question_Code'  # Name of the column to check in the CSV file
 
 # Verify the variables

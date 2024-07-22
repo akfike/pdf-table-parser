@@ -1,32 +1,34 @@
 import pandas as pd
+import glob
+import csv
 
-# Load the two CSV files
-descriptions_csv_path = 'variable_descriptions.csv'
-consolidated_csv_path = 'consolidated_nsduh_data_main.csv'
+def merge_csv_files(folder_path):
+    # Use glob to get all CSV files in the folder
+    csv_files = glob.glob(f'{folder_path}/*.csv')
 
-print(f"Loading descriptions CSV file from {descriptions_csv_path}")
-descriptions_df = pd.read_csv(descriptions_csv_path)
-print(f"Descriptions CSV loaded successfully with {len(descriptions_df)} records")
+    # Initialize an empty list to hold DataFrames
+    data_frames = []
 
-# Load the CSV file with a specific encoding
-try:
-    consolidated_df = pd.read_csv(consolidated_csv_path, encoding='ISO-8859-1')
-    print("CSV file loaded successfully.")
-except UnicodeDecodeError:
-    print("Error loading CSV file. Trying with a different encoding.")
-    consolidated_df = pd.read_csv(consolidated_csv_path, encoding='latin1')
+    # Process each CSV file
+    for file_path in csv_files:
+        df = pd.read_csv(file_path)
+        data_frames.append(df)
 
-# Merge the two DataFrames on variable_name == Question_Code
-merged_df = pd.merge(consolidated_df, descriptions_df[['variable_name', 'description']], left_on='Question_Code', right_on='variable_name', how='left')
+    # Concatenate all DataFrames into a single DataFrame
+    merged_df = pd.concat(data_frames, ignore_index=True)
 
-# Drop the 'variable_name' column from the merged DataFrame
-merged_df.drop(columns=['variable_name'], inplace=True)
+    folder_path = 'csvs/raw_csvs'
+    # Save the merged DataFrame to a new CSV file
+    merged_df.to_csv(f'{folder_path}/spi_mega_table.csv', index=False, quoting=csv.QUOTE_NONNUMERIC)
 
-# Save the merged DataFrame to a new CSV file
-output_file_path = 'csvs/merged_nsduh_data.csv'
-print(f"Saving merged data to {output_file_path}")
-merged_df.to_csv(output_file_path, index=False)
-print("Merged data saved successfully")
+    # Return the merged DataFrame
+    return merged_df
 
-# Print the merged DataFrame
-print(merged_df.head())
+# Path to the folder containing CSV files
+folder_path = 'csvs'
+
+# Merge the CSV files
+merged_df = merge_csv_files(folder_path)
+
+# Optional: Print the merged DataFrame for verification
+print(merged_df)
