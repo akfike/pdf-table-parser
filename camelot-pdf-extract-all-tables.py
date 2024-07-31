@@ -16,7 +16,7 @@ tables = camelot.read_pdf(
     flag_size=True
 )
 
-camelot.plot(tables[0], kind='textedge').show()
+# camelot.plot(tables[0], kind='textedge').show()
 
 # Function to convert specific columns to strings to avoid automatic date conversion
 def convert_columns_to_string(df):
@@ -31,4 +31,4 @@ for i, table in enumerate(tables):
     table.df = convert_columns_to_string(table.df)
     table.to_csv(f"csvs/raw_csvs/nhes_pfi_table_{i}.csv")
 
-    plt.show()
+    # plt.show()
